@@ -1,0 +1,96 @@
+.vlo-contact {
+    padding-top: 100px;
+    background-color: #f6fcfe;
+    margin-top: -50px;
+}
+
+.vlo-contact .contact-desc {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    opacity: 0.7;
+    max-width: 786px;
+}
+
+.vlo-contact .row.gx-5 {
+    align-items: flex-end;
+}
+
+.vlo-contact .form-field {
+    margin-bottom: 20px;
+}
+
+.vlo-contact label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D333D;
+    margin-bottom: 10px;
+}
+
+.vlo-contact .form-field input {
+    background: transparent;
+    width: 100%;
+    height: 60px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 22px;
+    border: 1px solid rgba(36, 188, 235, 0.2);
+}
+
+.vlo-contact .form-field input:focus-visible,
+.vlo-contact .form-field textarea:focus-visible {
+    outline: none;
+}
+
+.vlo-contact .form-field textarea {
+    background: transparent;
+    width: 100%;
+    height: 160px;
+    padding: 10px 10px;
+    font-size: 14px;
+    border: 1px solid rgba(36, 188, 235, 0.2);
+}
+
+.vlo-contact .contact-from h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #2D333D;
+}
+
+.vlo-contact .contact-from p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.vlo-contact .form-button {
+    margin-top: 60px;
+}
+
+.vlo-contact .form-button button {
+    background: #24BCEB;
+    color: #ffffff;
+    border: none;
+    height: 60px;
+    min-width: 200px;
+    font-size: 16px;
+}
+
+.vlo-contact-map {
+    padding: 100px 0;
+    background-color: #f6fcfe;
+}
+
+.vlo-contact-map .container-fluid {
+    padding: 0 50px;
+}

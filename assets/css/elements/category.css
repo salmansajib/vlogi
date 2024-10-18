@@ -1,0 +1,116 @@
+/* vlo-populer-topics */
+
+.vlo-populer-topics {
+    position: relative;
+    padding: 100px 0 70px 0;
+}
+
+.vlo-populer-topics .vlo-heading-2 {
+    margin-bottom: 80px;
+}
+
+.vlo-category-2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.vlo-category-2 img {
+    border-radius: 50%;
+}
+
+.vlo-category-2 .vlo-category-title {
+    margin: 35px 0 20px 0;
+}
+
+.vlo-category-2 .vlo-category-title a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.vlo-category-2 .vlo-category-title a:hover {
+    color: #FA347B;
+}
+
+.vlo-category-2 p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 0;
+}
+
+/* vlo-populer-category-5 */
+
+.vlo-populer-category-5 {
+    padding: 20px 0;
+    margin-bottom: 60px;
+    background: rgba(0, 0, 0, 0.400);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.400) 10%, rgba(0, 0, 0, 0.400) 10%, rgba(255, 255, 255, 0.569) 68%);
+    position: relative; 
+    z-index: 1;
+}
+
+.vlo-populer-category-5::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    height: calc(100% - 2px);
+    background-color: #f9f9f9;
+    z-index: -1;
+}
+
+.vlo-populer-category-5 .vlo-category-5::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: calc(100% - 2px);
+    background: #ffffff30;
+    z-index: 10;
+}
+
+.vlo-populer-category-5 .vlo-category-5 {
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    position: relative;
+}
+
+.vlo-populer-category-5 .swiper-wrapper {
+    z-index: 999;
+}
+
+.vlo-populer-category-5 .category-item a {
+    color: #000 !important;
+    /* padding: 14px 20px; */
+    min-width: 125px;
+    line-height: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50px;
+    background-color: hsl(185deg 100% 14% / 7%);
+    text-align: center;
+}
+
+.vlo-populer-category-5 .row {
+    align-items: center;
+}
+
+.vlo-populer-category-5 .category-title-4 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #2D333D;
+    min-width: 300px !important;
+    z-index: 999;
+}

@@ -1,0 +1,690 @@
+.vlo-about-1 {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 100px;
+}
+
+.vlo-about-1 .row {
+    align-items: center;
+}
+
+.vlo-about-1 .vlo-about-counter {
+    background-color: #fff;
+    padding: 40px 0;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.vlo-about-1 .vlo-about-counter .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.vlo-about-1 .vlo-counter-inner {
+    margin: 0 50px;
+}
+
+.vlo-about-1 .vlo-counter-inner h2 {
+    color: #24BCEB;
+}
+
+.vlo-about-1 .count {
+    font-size: 32px;
+    font-size: 700;
+}
+
+.vlo-about-1 .vlo-counter-inner p{
+    color: #2D333D;
+    opacity: 0.7;
+}
+
+.vlo-about-1 .vlo-counter-inner:first-child {
+    margin-left: 0;
+}
+
+.vlo-about-1 .vlo-counter-inner:last-child {
+    margin-right: 0;
+}
+
+.vlo-about-1 .vlo-banner-shapes img:nth-child(1) {
+    position: absolute;
+    left: 20%;
+    animation: 3s linear 0s infinite normal none running leftRight;
+}
+
+.vlo-about-1 .vlo-banner-shapes img:nth-child(2) {
+    position: absolute;
+    left: 5%;
+    animation: 3s linear 0s infinite normal none running spin;
+}
+
+.vlo-about-1 .vlo-banner-shapes img:nth-child(3) {
+    position: absolute;
+    left: 55%;
+    top: 4%;
+    animation: 3s linear 0s infinite normal none running swing;
+}
+
+.vlo-about-1 .vlo-banner-shapes img:nth-child(4) {
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    animation: 3s linear 0s infinite normal none running spinning;
+}
+
+.vlo-about-1 .vlo-banner-shapes img:nth-child(5) {
+    top: 30%;
+    position: absolute;
+    left: 10%;
+    animation: 3s linear 0s infinite normal none running swing;
+}
+
+/* vlo-partner-1 */
+
+.vlo-partner-1 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.vlo-partner-1 .swiper-wrapper {
+    align-items: center;
+}
+
+.vlo-partner-1 .partner-inner {
+    text-align: center;
+}
+
+.vlo-partner-1 .partner-inner img {
+    max-width: 165px;
+}
+
+/* vlo-testimonial-1 */
+
+.vlo-testimonial-1 {
+    padding-bottom: 100px;
+}
+
+.vlo-testimonial-1 .testimonial-title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    color: #2D333D;
+    margin-bottom: 50px;
+}
+
+.vlo-testimonial-1 .left-img,
+.vlo-testimonial-1 .right-img {
+    width: 170px;
+    position: relative;
+}
+
+.vlo-testimonial-1 .left-img::after,
+.vlo-testimonial-1 .right-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #24BCEB;
+    opacity: 0;
+    transition: 0.3s;
+} 
+
+.vlo-testimonial-1 .left-img:hover::after,
+.vlo-testimonial-1 .right-img:hover::after {
+    opacity: 0.7s;
+}
+
+.vlo-testimonial-1 .testimonial-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+}
+
+.vlo-testimonial-1 .testimonial-img img {
+    border-radius: 50%;
+    max-width: 180px;
+    max-height: 180px;
+}
+
+.vlo-testimonial-1 .testimonial-single {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin:  0 30px;
+    padding: 60px 30px;
+}
+
+.vlo-testimonial-1 .author-name h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #2D333D;
+    margin-bottom: 0px;
+}
+
+.vlo-testimonial-1 .author-name p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #2D333D;
+    opacity: 0.7;
+    margin-bottom: 26px;
+}
+
+.vlo-testimonial-1 .testimonial-info {
+    padding-left: 40px;
+}
+
+.vlo-testimonial-1 .testimonial-desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.vlo-testimonial-1 .swiper-button-prev::after,
+.vlo-testimonial-1 .swiper-button-next::after  {
+    display: none;
+}
+
+
+.vlo-testimonial-1 .swiper-button-prev,
+.vlo-testimonial-1 .swiper-button-next {
+    width: 200px;
+}
+
+.vlo-testimonial-1 .swiper-button-prev {
+    left: 0;
+}
+
+.vlo-testimonial-1 .swiper-button-next {
+    right: 0;
+}
+
+
+/* food about */
+.vlo-food {
+   background-color: #55555506; 
+}
+
+.vlo-food .food-about-title h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #2D333D;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.vlo-food-about .food-about-title h2 {
+    border-bottom: 1px solid rgb(0 0 0 / 15%);
+}
+
+.vlo-food-about .container-fluid {
+    padding: 0 120px;
+    margin: 60px 0;
+}
+
+.vlo-food-about p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.vlo-food-about blockquote {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+    opacity: 0.7;
+    margin: 70px 30px 0 30px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 70px;
+}
+
+.vlo-food-about blockquote img {
+    position: absolute;
+    top: -17px;
+    left: -47px;
+    width: 69px;
+    height: 56px;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+/* vlo-food-recipe-1 */
+
+.vlo-food-recipe-1 {
+    padding-bottom: 30px;
+}
+
+.vlo-food-recipe-1 .swiper-slide {
+    text-align: center;
+}
+
+.vlo-food-recipe-1 .swiper-slide img {
+    margin-bottom: 30px;
+}
+
+.vlo-food-recipe-1 .recipe-name {
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #2D333D;
+}
+
+.vlo-food-recipe-1 .recipe-price {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #2D333D;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+
+/* vlo-marketing */
+
+.marketing-title h2 {
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 58px !important;
+    color: #2D333D !important;
+    margin-bottom: 30px;
+}
+
+.vlo-marketing-about {
+    background-color: #f6fcfe;
+}
+
+.vlo-marketing-about .vlo-partner-1 {
+    padding-top: 0;
+}
+
+.vlo-marketing-about .vlo-video-post-1 .vlo-video-img {
+    margin-bottom: 0;
+}
+
+.marketing-about-inner .marketing-title {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 50px;
+}
+
+.marketing-about-inner .marketing-desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    opacity: 0.7;
+    padding-right: 13px;
+}
+
+.vlo-marketing .vlo-video-post-1 {
+    text-align: center;
+}
+
+.vlo-marketing .vlo-video-post-1::before {
+    background-color: transparent !important;
+}
+
+.vlo-marketing .vlo-video-post-1 .video-play-btn::before {
+    opacity: 0.02;
+}
+
+.vlo-marketing .marketing-video-inner {
+    position: relative;
+    padding-top: 180px;
+}
+
+.vlo-marketing .marketing-video-inner.about {
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+.vlo-marketing .marketing-video-inner.about p {
+    top: 5%;
+}
+
+.vlo-marketing .marketing-video-inner.about .marketing-video-quot {
+    top: 0;
+}
+
+.vlo-marketing .marketing-video-inner p {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    max-width: 970px;
+    margin: 0 auto;
+    background-color: #ECF5FE;
+    padding: 92px 70px 65px 70px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 999;
+}
+
+.vlo-marketing .marketing-video-quot {
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: -50px;
+    transform: translate(-50%);
+    background-color: #fff;
+    width: 108px;
+    height: 108px;
+    line-height: 108px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+/* vlo-designer-about  */
+
+.vlo-designer-about .vlo-title-bar-1 {
+    margin-top: 0;
+}
+
+.vlo-designer-about .vlo-about-1 .row {
+    align-items: start;
+}
+
+.vlo-designer-about .vlo-about-1 .vlo-about-counter{
+    background-color: rgb(249 75 138 / 5%);
+    padding-bottom: 0;
+    bottom: 100px;
+}
+
+.vlo-designer-about .vlo-about-1 .vlo-about-counter .container {
+    display: block;
+}
+
+.vlo-designer-about .vlo-counter-inner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.vlo-designer-about .vlo-about-1 .vlo-counter-inner h2 {
+    color: #FA347B;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.vlo-designer-about .vlo-about-1 .vlo-counter-inner span {
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.vlo-designer-about .vlo-counter-inner p {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.vlo-designer-about .vlo-about-1 .vlo-about-counter .container {
+    text-align: left;
+}
+
+.vlo-designer-about .banner-desc {
+    margin-bottom: 70px;
+}
+
+.vlo-designer-about .banner-desc p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.desinger-title h2 {
+    font-weight: 700 !important;
+    font-size: 48px !important;
+    line-height: 58px !important;
+    color: #2D333D !important;
+    margin-bottom: 50px;
+}
+
+.vlo-designer .vlo-about-1 .desinger-title {
+    border-bottom: 1px solid #000000;
+    margin-bottom: 50px;
+}
+
+.vlo-designer-testimonial {
+    padding-bottom: 100px;
+}
+
+.vlo-designer-testimonial .designer-title {
+    position: relative;
+    z-index: 999;
+}
+
+.vlo-designer-testimonial .designer-title span {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #FA347B;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    z-index: -1;
+    top: -50px;
+    left: -65px;
+}
+
+.vlo-designer-testimonial .designer-title {
+    width: 50%;
+}
+
+.vlo-designer-testimonial .designer-title h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #2D333D;
+    max-width: 485px;
+}
+
+.vlo-designer-testimonial .testimonial-inner h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #2D333D;
+    opacity: 0.7;
+    max-width: 280px;
+    margin-bottom: 30px;
+}
+
+.vlo-designer-testimonial .testimonial-inner p {
+    width: 334px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 36px;
+}
+
+.vlo-designer-testimonial .testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+.vlo-designer-testimonial .author-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.vlo-designer-testimonial .author-name {
+    margin-left: 15px;
+}
+
+.vlo-designer-testimonial .author-name h4 {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2D333D;
+    margin: 0;
+}
+
+.vlo-designer-testimonial .author-name span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #2D333D;
+    opacity: 0.7;
+}
+
+.vlo-designer-testimonial .swiper {
+    padding-top: 140px;
+    margin-top: -100px;
+}
+
+.vlo-designer-testimonial .swiper-button-prev {
+    left: 89%;
+}
+
+.vlo-designer-testimonial .swiper-button-next::after,
+.vlo-designer-testimonial .swiper-button-prev::after {
+    display: none;
+}
+
+.vlo-designer-testimonial .swiper-button-next,
+.vlo-designer-testimonial .swiper-button-prev {
+    top: 35px;
+    width: 40px;
+    transition: 0.3s;
+}
+
+.vlo-designer-testimonial .swiper-button-next:hover,
+.vlo-designer-testimonial .swiper-button-prev:hover {
+    width: 80px;
+}
+
+.vlo-designer .vlo-partner-1 {
+    padding-top: 0;
+}
+
+/* vlo-photography  */
+
+.vlo-photography .vlo-title-bar-1 {
+    margin: 0 !important;
+}
+
+.vlo-photography .vlo-about-1 {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.vlo-photography .sub-title h4 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #FA347B;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.vlo-photography .photography-title h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #FFFFFF;
+    max-width: 423px;
+    margin-bottom: 50px;
+}
+
+.vlo-photography .banner-desc p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 75px;
+}
+
+.vlo-photography .vlo-counter-inner {
+    display: flex;
+    align-items: center;
+}
+
+.vlo-photography .vlo-counter-inner .count {
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FA347B;
+}
+
+.vlo-photography .vlo-counter-inner p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    padding-left: 15px;
+}
+
+.vlo-photography .vlo-counter-inner {
+    margin: 0;
+    text-align: left;
+}
+
+.vlo-photography .vlo-about-counter-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.vlo-photography .vlo-about-counter-1 .vlo-counter-inner {
+    border: 1px solid #383838;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.vlo-photography .vlo-about-counter-1 .vlo-counter-inner:nth-child(1) {
+    border-left: transparent;
+    border-top: transparent;
+}
+
+.vlo-photography .vlo-about-counter-1 .vlo-counter-inner:nth-child(2) {
+    border-top: transparent;
+    border-right: transparent;
+}
+
+.vlo-photography .vlo-about-counter-1 .vlo-counter-inner:nth-child(3) {
+    border-bottom: transparent;
+    border-left: transparent;
+}
+
+.vlo-photography .vlo-about-counter-1 .vlo-counter-inner:nth-child(4) {
+    border-bottom: transparent;
+    border-right: transparent;
+} 
+
+.vlo-photography .vlo-partner-1 {
+    padding-top: 0;
+}
+
+.photography-partner-title h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}

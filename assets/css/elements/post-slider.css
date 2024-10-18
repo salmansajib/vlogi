@@ -1,0 +1,124 @@
+/* post-slider-1 */
+
+.vlo-post-slider-1 .post-slider-single {
+    position: relative;
+    z-index: -1;
+}
+
+.vlo-post-slider-1 .post-slider-single::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.vlo-post-slider-1 .post-slider-single:hover::after {
+    opacity: 0.5;
+}
+
+.vlo-post-slider-1 .post-slider-info {
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    padding:40px ;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.vlo-post-slider-1 .post-slider-single:hover .post-slider-info {
+    opacity: 1;
+}
+
+.vlo-post-slider-1 .post-slider-date {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.vlo-post-slider-1 .post-slider-info h2 {
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.vlo-post-slider-1 .post-slider-info h2 a {
+    color: #fff;
+}
+
+.vlo-post-slider-1 .post-slider-social {
+    display: flex;
+}
+
+.vlo-post-slider-1 .post-slider-social .comment {
+    margin-right: 20px;
+}
+
+.vlo-post-slider-1 .post-slider-social .comment,
+.vlo-post-slider-1 .post-slider-social .like {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+}
+
+.vlo-post-slider-1 .post-slider-social i {
+    color: #ffffff;
+    margin-right: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.vlo-post-slider-1 .swiper-button-next:after, 
+.vlo-post-slider-1 .swiper-button-prev:after {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vlo-post-slider-1 .swiper-button-next,
+.vlo-post-slider-1 .swiper-button-prev {
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 0;
+    z-index: 10;background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.vlo-post-slider-1 .swiper-button-prev {
+    left: 8%;
+}
+
+.vlo-post-slider-1 .swiper-button-next {
+    right: 8%;
+}
+
+/* slider-2 */
+
+.vlo-post-slider-1.slider-2 .swiper-button-next:after, 
+.vlo-post-slider-1.slider-2 .swiper-button-prev:after {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.vlo-post-slider-1.slider-2 .swiper-button-next,
+.vlo-post-slider-1.slider-2 .swiper-button-prev {
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 0;
+    z-index: 10;
+    background-color: #f4347b;
+    border-radius: 50%;
+}
+
+.vlo-post-slider-1.slider-2 .swiper-button-prev {
+    left: 8%;
+}
+
+.vlo-post-slider-1.slider-2 .swiper-button-next {
+    right: 8%;
+}

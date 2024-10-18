@@ -1,0 +1,234 @@
+/* vlo-video-1 */
+.vlo-video-post-1 {
+  padding: 100px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.vlo-video-post-1 .vlo-heading-1 h2 {
+  margin-bottom: 30px;
+}
+
+.vlo-video-post-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: #f4fbfe;
+}
+
+.vlo-video-post-1 .video-title {
+  margin: 15px 0 20px 0;
+  font-size: 36px;
+}
+
+.vlo-video-post-1 .video-title a {
+  font-weight: 700;
+  line-height: 46px;
+  color: #2d333d;
+}
+
+.vlo-video-post-1 .video-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vlo-video-post-1 .video-author {
+  align-items: center;
+  vertical-align: middle;
+}
+
+.vlo-video-post-1 .video-author img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.vlo-video-post-1 .vlo-video-img {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.vlo-video-post-1 .play-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  line-height: 100px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.vlo-video-post-1 .video-play-btn::after {
+  position: absolute;
+  content: "";
+  grid-area: 1/1;
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  opacity: 0.258;
+  width: 120px;
+  height: 120px;
+  border: 10px solid #000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: ripple 3s linear infinite;
+  animation-delay: 5s;
+  z-index: -1;
+}
+
+.vlo-video-post-1 .video-play-btn::before {
+  position: absolute;
+  content: "";
+  grid-area: 1/1;
+  top: 50%;
+  left: 50%;
+  background-color: transparent;
+  opacity: 0.258;
+  width: 120px;
+  height: 120px;
+  border: 10px solid #000;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: ripple-1 3s linear infinite;
+  animation-delay: 5s;
+  z-index: -1;
+}
+
+.vlo-video-post-1 .play-btn img {
+  padding-left: 10px;
+}
+
+.vlo-video-post-1 .video-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vlo-video-post-1 .video-meta i {
+  vertical-align: text-top;
+}
+
+.vlo-video-post-1 .video-author span,
+.vlo-video-post-1 .video-author a {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.vlo-video-post-1 .video-comment span {
+  padding: 0 30px 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.vlo-video-post-1 .video-like span {
+  padding: 0 0 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .vlo-video-single {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .play-btn {
+  width: 38px;
+  height: 38px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .video-play-btn::after {
+  display: none;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .video-play-btn::before {
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  grid-area: 1/1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  animation: inherit;
+  animation-delay: 1s;
+  width: 30px;
+  height: 30px;
+  animation: ripple-1 2s linear infinite;
+  z-index: -1;
+  opacity: 1;
+}
+
+.vlo-video-post-1
+  .vlo-video-list-1
+  .vlo-video-single:hover
+  .vlo-date-1
+  span::after {
+  background-color: #24bceb;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .vlo-info {
+  padding-left: 30px;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .vlo-video-img {
+  margin-bottom: 0;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .vlo-video-img img {
+  max-width: 170px;
+  padding-left: 5px;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .video-title {
+  margin: 10px 0 5px 0;
+  font-size: 14px;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .video-title a {
+  font-weight: 600;
+  line-height: 24px;
+  color: #2d333d;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .vlo-date-1 span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #2d333d;
+  opacity: 0.7;
+}
+
+.vlo-video-post-1 .vlo-video-list-1 .video-author span,
+.vlo-video-post-1 .vlo-video-list-1 .video-author a {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  color: #2d333d;
+  opacity: 0.5;
+}

@@ -1,0 +1,81 @@
+$flaticon_vlogi-font: "flaticon_vlogi";
+
+@font-face {
+    font-family: $flaticon_vlogi-font;
+    src: url("./flaticon_vlogi.ttf?4358b9d993909741f1028822c2cdf01c") format("truetype"),
+url("./flaticon_vlogi.woff?4358b9d993909741f1028822c2cdf01c") format("woff"),
+url("./flaticon_vlogi.woff2?4358b9d993909741f1028822c2cdf01c") format("woff2"),
+url("./flaticon_vlogi.eot?4358b9d993909741f1028822c2cdf01c#iefix") format("embedded-opentype"),
+url("./flaticon_vlogi.svg?4358b9d993909741f1028822c2cdf01c#flaticon_vlogi") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_vlogi !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_vlogi-map: (
+    "down": "\f101",
+    "arrow-point-to-right": "\f102",
+    "arrow-pointing-to-right": "\f103",
+    "play-button-arrowhead": "\f104",
+    "speech-bubble": "\f105",
+    "heart": "\f106",
+    "vimeo": "\f107",
+    "linkedin": "\f108",
+    "flickr-logo-variant-of-two-dots-in-a-rounded-square": "\f109",
+    "instagram": "\f10a",
+    "facebook-app-symbol": "\f10b",
+    "hour": "\f10c",
+    "send": "\f10d",
+    "twitter": "\f10e",
+);
+
+.flaticon-down:before {
+    content: map-get($flaticon_vlogi-map, "down");
+}
+.flaticon-arrow-point-to-right:before {
+    content: map-get($flaticon_vlogi-map, "arrow-point-to-right");
+}
+.flaticon-arrow-pointing-to-right:before {
+    content: map-get($flaticon_vlogi-map, "arrow-pointing-to-right");
+}
+.flaticon-play-button-arrowhead:before {
+    content: map-get($flaticon_vlogi-map, "play-button-arrowhead");
+}
+.flaticon-speech-bubble:before {
+    content: map-get($flaticon_vlogi-map, "speech-bubble");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon_vlogi-map, "heart");
+}
+.flaticon-vimeo:before {
+    content: map-get($flaticon_vlogi-map, "vimeo");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon_vlogi-map, "linkedin");
+}
+.flaticon-flickr-logo-variant-of-two-dots-in-a-rounded-square:before {
+    content: map-get($flaticon_vlogi-map, "flickr-logo-variant-of-two-dots-in-a-rounded-square");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon_vlogi-map, "instagram");
+}
+.flaticon-facebook-app-symbol:before {
+    content: map-get($flaticon_vlogi-map, "facebook-app-symbol");
+}
+.flaticon-hour:before {
+    content: map-get($flaticon_vlogi-map, "hour");
+}
+.flaticon-send:before {
+    content: map-get($flaticon_vlogi-map, "send");
+}
+.flaticon-twitter:before {
+    content: map-get($flaticon_vlogi-map, "twitter");
+}

@@ -1,0 +1,112 @@
+/* Instagram-1 */
+
+.vlo-instagram-1 .container-fluid {
+    display: flex;
+    padding: 0 65px 100px 70px;
+}
+
+.vlo-instagram-1 .instagram-single {
+    margin-right: 5px;
+    position: relative;
+}
+
+.vlo-instagram-1 .instagram-single::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2D333D;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.vlo-instagram-1 .instagram-single:hover::after {
+    opacity: 0.5;
+}
+
+.vlo-instagram-1 .instagram-single .flaticon-instagram {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+    line-height: 25px;
+    color: #fff;
+    z-index: 999;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.vlo-instagram-1 .instagram-single:hover .flaticon-instagram {
+    opacity: 1;
+}
+
+.vlo-instagram-1.photographer {
+    z-index: -1;
+    padding-left: 150px;
+}
+
+/* vlo-instagram-3 */
+
+.vlo-instagram-3 .vlo-instagram-heading h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 20px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.vlo-instagram-3 .instagram-single {
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 105px;
+}
+
+.vlo-instagram-3 .instagram-single::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #2D333D;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.vlo-instagram-3 .instagram-single img {
+    border-radius: 10px;
+}
+
+.vlo-instagram-3 .instagram-single:hover::before {
+    opacity: 0.7;
+}
+
+.vlo-instagram-3 .instagram-single:nth-child(3),
+.vlo-instagram-3 .instagram-single:nth-child(6) {
+    margin-right: 0;
+}
+
+.vlo-instagram-3 .instagram-single i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.vlo-instagram-3 .instagram-single:hover i {
+    opacity: 1;
+}
+
+.vlo-instagram-3 .instagram-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}

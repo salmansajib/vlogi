@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "flaticon_vlogi";
+  src: url("./flaticon_vlogi.ttf?4358b9d993909741f1028822c2cdf01c") format("truetype"), url("./flaticon_vlogi.woff?4358b9d993909741f1028822c2cdf01c") format("woff"), url("./flaticon_vlogi.woff2?4358b9d993909741f1028822c2cdf01c") format("woff2"), url("./flaticon_vlogi.eot?4358b9d993909741f1028822c2cdf01c#iefix") format("embedded-opentype"), url("./flaticon_vlogi.svg?4358b9d993909741f1028822c2cdf01c#flaticon_vlogi") format("svg");
+}
+i[class^=flaticon-]:before, i[class*=" flaticon-"]:before {
+  font-family: flaticon_vlogi !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-down:before {
+  content: "\f101";
+}
+
+.flaticon-arrow-point-to-right:before {
+  content: "\f102";
+}
+
+.flaticon-arrow-pointing-to-right:before {
+  content: "\f103";
+}
+
+.flaticon-play-button-arrowhead:before {
+  content: "\f104";
+}
+
+.flaticon-speech-bubble:before {
+  content: "\f105";
+}
+
+.flaticon-heart:before {
+  content: "\f106";
+}
+
+.flaticon-vimeo:before {
+  content: "\f107";
+}
+
+.flaticon-linkedin:before {
+  content: "\f108";
+}
+
+.flaticon-flickr-logo-variant-of-two-dots-in-a-rounded-square:before {
+  content: "\f109";
+}
+
+.flaticon-instagram:before {
+  content: "\f10a";
+}
+
+.flaticon-facebook-app-symbol:before {
+  content: "\f10b";
+}
+
+.flaticon-hour:before {
+  content: "\f10c";
+}
+
+.flaticon-send:before {
+  content: "\f10d";
+}
+
+.flaticon-twitter:before {
+  content: "\f10e";
+}/*# sourceMappingURL=flaticon_vlogi.css.map */
