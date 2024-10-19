@@ -3,67 +3,93 @@
 import Link from "next/link";
 import { useDarkModeContext } from "@/context/DarkModeContext";
 import { useState, useEffect } from "react";
+import Logo from "../Logo";
 
+import { motion } from "framer-motion";
+
+// Menu items data
 const menuItems = [
   {
+    id: 1,
     label: "Home",
     link: "/travel-blog-details.html",
     subMenu: [
-      { label: "Travel", link: "/index.html" },
-      { label: "Food", link: "/index-3.html" },
-      { label: "Marketing", link: "/index-4.html" },
-      { label: "Designer", link: "/index-5.html" },
-      { label: "Photography", link: "/index-2.html" },
+      { id: 11, label: "Travel", link: "/index.html" },
+      { id: 12, label: "Food", link: "/index-3.html" },
+      { id: 13, label: "Marketing", link: "/index-4.html" },
+      { id: 14, label: "Designer", link: "/index-5.html" },
+      { id: 15, label: "Photography", link: "/index-2.html" },
     ],
   },
   {
+    id: 2,
     label: "Blog",
     link: "/travel-blog-details.html",
     subMenu: [
       {
+        id: 21,
         label: "Travel",
         link: "/travel-blog-details.html",
         subMenu: [
-          { label: "Travel Blog", link: "/travel-blog.html" },
-          { label: "Travel Blog Details", link: "/travel-blog-details.html" },
+          { id: 211, label: "Travel Blog", link: "/travel-blog.html" },
+          {
+            id: 212,
+            label: "Travel Blog Details",
+            link: "/travel-blog-details.html",
+          },
         ],
       },
       {
+        id: 22,
         label: "Food",
         link: "/travel-blog-details.html",
         subMenu: [
-          { label: "Food Blog", link: "/food-blog.html" },
-          { label: "Food Blog Details", link: "/food-blog-details.html" },
+          { id: 221, label: "Food Blog", link: "/food-blog.html" },
+          {
+            id: 222,
+            label: "Food Blog Details",
+            link: "/food-blog-details.html",
+          },
         ],
       },
       {
+        id: 23,
         label: "Marketing",
         link: "/travel-blog-details.html",
         subMenu: [
-          { label: "Marketing Blog", link: "/marketing-blog.html" },
+          { id: 231, label: "Marketing Blog", link: "/marketing-blog.html" },
           {
+            id: 232,
             label: "Marketing Blog Details",
             link: "/marketing-blog-details.html",
           },
         ],
       },
       {
+        id: 24,
         label: "Designer",
         link: "/travel-blog-details.html",
         subMenu: [
-          { label: "Designer Blog", link: "/designer-blog.html" },
+          { id: 241, label: "Designer Blog", link: "/designer-blog.html" },
           {
+            id: 242,
             label: "Designer Blog Details",
             link: "/designer-blog-details.html",
           },
         ],
       },
       {
+        id: 25,
         label: "Photography",
         link: "/travel-blog-details.html",
         subMenu: [
-          { label: "Photography Blog", link: "/photography-blog.html" },
           {
+            id: 251,
+            label: "Photography Blog",
+            link: "/photography-blog.html",
+          },
+          {
+            id: 252,
             label: "Photography Blog Details",
             link: "/photography-blog-details.html",
           },
@@ -72,17 +98,19 @@ const menuItems = [
     ],
   },
   {
+    id: 3,
     label: "About Me",
     link: "/travel-blog-details.html",
     subMenu: [
-      { label: "Travel", link: "/travel-about.html" },
-      { label: "Food", link: "/food-about.html" },
-      { label: "Marketing", link: "/marketing-about.html" },
-      { label: "Designer", link: "/designer-about.html" },
-      { label: "Photography", link: "/photography-about.html" },
+      { id: 31, label: "Travel", link: "/travel-about.html" },
+      { id: 32, label: "Food", link: "/food-about.html" },
+      { id: 33, label: "Marketing", link: "/marketing-about.html" },
+      { id: 34, label: "Designer", link: "/designer-about.html" },
+      { id: 35, label: "Photography", link: "/photography-about.html" },
     ],
   },
   {
+    id: 4,
     label: "Contact Me",
     link: "/contact.html",
     className: "vlo-global-btn header-btn",
@@ -101,12 +129,12 @@ function TravelHeader() {
     }
   };
 
-  const toggleSubMenu = (index) => {
+  const toggleSubMenu = (id) => {
     // Only allow toggling on mobile view
     if (isMobileView) {
       setExpandedItems((prevState) => ({
         ...prevState,
-        [index]: !prevState[index],
+        [id]: !prevState[id],
       }));
     }
   };
@@ -120,8 +148,8 @@ function TravelHeader() {
         setIsMobileView(false);
         // Ensure all submenus are expanded on larger screens
         const allExpanded = {};
-        menuItems.forEach((_, index) => {
-          allExpanded[index] = true;
+        menuItems.forEach((item) => {
+          allExpanded[item.id] = true;
         });
         setExpandedItems(allExpanded);
         setMenuOpen(true); // Ensure menu is always open on larger screens
@@ -142,12 +170,7 @@ function TravelHeader() {
     <header className="vlo-header-1">
       <div className="container">
         <div className="vlo-header-inner">
-          <div className="vlo-logo-wrap">
-            <Link href="/index.html" className="vlo-logo">
-              <img src="/images/logo/vlo-logo.svg" alt="logo" />
-              <img src="/images/logo/vlo-footer-logo-1.svg" alt="" />
-            </Link>
-          </div>
+          <Logo />
 
           <nav className="vlo-main-menu">
             <div className="vlo-offcanvas-wrap">
@@ -183,13 +206,13 @@ function TravelHeader() {
                 display: isMobileView ? (menuOpen ? "block" : "none") : "block",
               }}
             >
-              {menuItems.map((item, index) => (
+              {menuItems.map((item) => (
                 <li
-                  key={index}
+                  key={item.id}
                   className={`${item.subMenu ? "menu-item-has-children" : ""} ${
-                    expandedItems[index] ? "menu-expanded" : ""
+                    expandedItems[item.id] ? "menu-expanded" : ""
                   }`}
-                  onClick={() => toggleSubMenu(index)}
+                  onClick={() => toggleSubMenu(item.id)}
                 >
                   <Link href={item.link} className={item.className || ""}>
                     {item.label}
@@ -198,17 +221,17 @@ function TravelHeader() {
                     <ul
                       className="sub-menu"
                       style={{
-                        display: expandedItems[index] ? "block" : "none",
+                        display: expandedItems[item.id] ? "block" : "none",
                       }}
                     >
-                      {item.subMenu.map((subItem, subIndex) => (
+                      {item.subMenu.map((subItem) => (
                         <li
-                          key={subIndex}
+                          key={subItem.id}
                           className={
                             subItem.subMenu ? "menu-item-has-children" : ""
                           }
                           style={{
-                            display: expandedItems[index]
+                            display: expandedItems[item.id]
                               ? "list-item"
                               : "none",
                           }}
@@ -216,15 +239,13 @@ function TravelHeader() {
                           <Link href={subItem.link}>{subItem.label}</Link>
                           {subItem.subMenu && (
                             <ul className="sub-menu">
-                              {subItem.subMenu.map(
-                                (subSubItem, subSubIndex) => (
-                                  <li key={subSubIndex}>
-                                    <Link href={subSubItem.link}>
-                                      {subSubItem.label}
-                                    </Link>
-                                  </li>
-                                ),
-                              )}
+                              {subItem.subMenu.map((subSubItem) => (
+                                <li key={subSubItem.id}>
+                                  <Link href={subSubItem.link}>
+                                    {subSubItem.label}
+                                  </Link>
+                                </li>
+                              ))}
                             </ul>
                           )}
                         </li>

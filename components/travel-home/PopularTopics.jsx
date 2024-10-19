@@ -121,7 +121,7 @@ function PopularTopics() {
             className="swiper-wrapper"
             modules={[Navigation, Autoplay]}
             loop={true}
-            autoplay={{ delay: 1500, disableOnInteraction: false }}
+            autoplay={{ delay: 1000, disableOnInteraction: false }}
             speed={700}
             navigation={{
               nextEl: ".pt-swiper-button-next",
