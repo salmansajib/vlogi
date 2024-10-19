@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useDarkModeContext } from "@/context/DarkModeContext";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const menuItems = [
   {
@@ -93,17 +93,50 @@ function TravelHeader() {
   const { isDark, toggleTheme } = useDarkModeContext();
   const [menuOpen, setMenuOpen] = useState(false);
   const [expandedItems, setExpandedItems] = useState({});
+  const [isMobileView, setIsMobileView] = useState(false);
 
   const toggleMenu = () => {
-    setMenuOpen((prevState) => !prevState);
+    if (isMobileView) {
+      setMenuOpen((prevState) => !prevState);
+    }
   };
 
   const toggleSubMenu = (index) => {
-    setExpandedItems((prevState) => ({
-      ...prevState,
-      [index]: !prevState[index],
-    }));
+    // Only allow toggling on mobile view
+    if (isMobileView) {
+      setExpandedItems((prevState) => ({
+        ...prevState,
+        [index]: !prevState[index],
+      }));
+    }
   };
+
+  useEffect(() => {
+    // Function to check if screen size is <= 991px
+    const handleResize = () => {
+      if (window.innerWidth <= 991) {
+        setIsMobileView(true);
+      } else {
+        setIsMobileView(false);
+        // Ensure all submenus are expanded on larger screens
+        const allExpanded = {};
+        menuItems.forEach((_, index) => {
+          allExpanded[index] = true;
+        });
+        setExpandedItems(allExpanded);
+        setMenuOpen(true); // Ensure menu is always open on larger screens
+      }
+    };
+
+    // Run on initial load to set the correct menu state
+    handleResize();
+
+    // Add event listener for screen resizing
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup listener on unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <header className="vlo-header-1">
@@ -131,19 +164,24 @@ function TravelHeader() {
                   htmlFor="darkSwitch"
                 ></label>
               </div>
-              <button
-                className="mobile-menu-icon"
-                aria-label="Main Menu Icon"
-                onClick={toggleMenu}
-              >
-                <span></span>
-                <span></span>
-                <span></span>
-              </button>
+              {/* Show the mobile icon only on mobile screens */}
+              {isMobileView && (
+                <button
+                  className="mobile-menu-icon"
+                  aria-label="Main Menu Icon"
+                  onClick={toggleMenu}
+                >
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+              )}
             </div>
             <ul
               className="nav-menu"
-              style={{ display: menuOpen ? "block" : "none" }}
+              style={{
+                display: isMobileView ? (menuOpen ? "block" : "none") : "block",
+              }}
             >
               {menuItems.map((item, index) => (
                 <li
@@ -185,7 +223,7 @@ function TravelHeader() {
                                       {subSubItem.label}
                                     </Link>
                                   </li>
-                                )
+                                ),
                               )}
                             </ul>
                           )}
