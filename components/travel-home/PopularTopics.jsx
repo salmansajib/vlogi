@@ -3,6 +3,8 @@
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
+import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 
 // slides data
 const slidesData = [
@@ -105,7 +107,7 @@ const slidesData = [
 ];
 
 function PopularTopics() {
-  const swiperRef = useRef(null); // Ref for Swiper instance
+  const ptSwiperRef = useRef(null); // Ref for Swiper instance
 
   return (
     <div className="vlo-categories-1">
@@ -122,8 +124,8 @@ function PopularTopics() {
             autoplay={{ delay: 1500, disableOnInteraction: false }}
             speed={700}
             navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
+              nextEl: ".pt-swiper-button-next",
+              prevEl: ".pt-swiper-button-prev",
             }}
             spaceBetween={20}
             breakpoints={{
@@ -144,14 +146,14 @@ function PopularTopics() {
                 slidesPerView: 1,
               },
             }}
-            onSwiper={(swiper) => (swiperRef.current = swiper)}
+            onSwiper={(swiper) => (ptSwiperRef.current = swiper)}
           >
             {slidesData.map((slide) => (
               <SwiperSlide key={slide.id} className="swiper-slide">
                 <div
                   className="vlo-categories-single"
-                  onMouseEnter={() => swiperRef.current.autoplay.stop()}
-                  onMouseLeave={() => swiperRef.current.autoplay.start()}
+                  onMouseEnter={() => ptSwiperRef.current.autoplay.stop()}
+                  onMouseLeave={() => ptSwiperRef.current.autoplay.start()}
                 >
                   <div className="vlo-categories-img">
                     <img src={slide.imgSrc} alt={slide.imgAlt} />
@@ -165,17 +167,21 @@ function PopularTopics() {
             ))}
           </Swiper>
 
-          <div className="categories-navigation">
+          <div className="categories-navigation space-x-3 z-20">
             <button
-              className="swiper-button-prev"
-              onMouseEnter={() => swiperRef.current.autoplay.stop()}
-              onMouseLeave={() => swiperRef.current.autoplay.start()}
-            ></button>
+              className="pt-swiper-button-prev bg-gray-900 hover:bg-blue-400 text-gray-50 text-2xl p-2 rounded-full transition-colors duration-150"
+              onMouseEnter={() => ptSwiperRef.current.autoplay.stop()}
+              onMouseLeave={() => ptSwiperRef.current.autoplay.start()}
+            >
+              <IoIosArrowBack />
+            </button>
             <button
-              className="swiper-button-next"
-              onMouseEnter={() => swiperRef.current.autoplay.stop()}
-              onMouseLeave={() => swiperRef.current.autoplay.start()}
-            ></button>
+              className="pt-swiper-button-next bg-gray-900 hover:bg-blue-400 text-gray-50 text-2xl p-2 rounded-full transition-colors duration-150"
+              onMouseEnter={() => ptSwiperRef.current.autoplay.stop()}
+              onMouseLeave={() => ptSwiperRef.current.autoplay.start()}
+            >
+              <IoIosArrowForward />
+            </button>
           </div>
         </div>
       </div>
