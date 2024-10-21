@@ -1,6 +1,20 @@
-import React from "react";
+"use client";
+
+import { useState } from "react";
 
 function TravelFooter() {
+  const [email, setEmail] = useState("");
+
+  const handleEmailInputChange = (e) => {
+    setEmail(e.target.value);
+  };
+
+  const handleEmailSubmit = (e) => {
+    e.preventDefault();
+    setEmail("");
+    console.log("Submitted Email:", email);
+  };
+
   return (
     <footer className="vlo-footer-6">
       <div className="container">
@@ -105,8 +119,10 @@ function TravelFooter() {
                         name="email"
                         placeholder="Email"
                         autoComplete="off"
+                        value={email}
+                        onChange={handleEmailInputChange}
                       />
-                      <button type="submit">
+                      <button type="submit" onClick={handleEmailSubmit}>
                         <span>Submit</span>
                       </button>
                     </form>

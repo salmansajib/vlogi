@@ -1,1132 +1,1132 @@
 .vlo-tarvel-details {
-    padding-bottom: 100px
+  padding-bottom: 100px;
 }
 
 .vlo-tarvel-details .details-info {
-    display: flex;
-    align-items: center;
-    padding: 50px 0;
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
 }
 
 .vlo-tarvel-details p {
-    font-size: 18px;
-    line-height: 28px;
-    color: #000000;
-    opacity: 0.7;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .vlo-tarvel-details .details-meta {
-    display: flex;
-    align-items: center;
-    padding-left: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
 }
 
 .vlo-tarvel-details .details-meta .details-comment {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 .vlo-tarvel-details .details-title {
-    font-size: 60px;
-    line-height: 70px;
-    max-width: 966px;
-    margin-bottom: 35px;
+  font-size: 60px;
+  line-height: 70px;
+  max-width: 966px;
+  margin-bottom: 35px;
 }
 
 .vlo-tarvel-details .details-title a {
-    color: #2D333D;
+  color: #2d333d;
 }
 
 .vlo-tarvel-details blockquote {
-    position: relative;
-    padding: 50px;
-    background-color: #EEF1F5;
-    margin: 50px 0;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 36px;
-    color: #000000;
-    opacity: 0.7;
+  position: relative;
+  padding: 50px;
+  background-color: #eef1f5;
+  margin: 50px 0;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36px;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .vlo-tarvel-details blockquote span {
-    position: absolute;
-    background-color: #2D333D;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    line-height: 50px;
-    text-align: center;
-    top: -25px;
-    left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #2d333d;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+  top: -25px;
+  left: 50px;
 }
 
 .vlo-tarvel-details .details-social {
-    position: relative;
-    text-align: right;
-    padding: 50px 0;
+  position: relative;
+  text-align: right;
+  padding: 50px 0;
 }
 
 .vlo-tarvel-details .details-social::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    width: 65%;
-    height: 1px;
-    background-color: #2D333D;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 65%;
+  height: 1px;
+  background-color: #2d333d;
 }
 
 .vlo-tarvel-details .details-social a {
-    margin: 0 15px;
-    color: #2D333D;
+  margin: 0 15px;
+  color: #2d333d;
 }
 
 .vlo-tarvel-details .details-social a:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .vlo-tarvel-details .details-social a:last-child {
-    margin-right: 0;
-    font-weight: 400;
-    font-size: 22px;
-    margin-left: 30px;
-    color: #2D333D;
-    opacity: 0.7;
+  margin-right: 0;
+  font-weight: 400;
+  font-size: 22px;
+  margin-left: 30px;
+  color: #2d333d;
+  opacity: 0.7;
 }
 
 .details-posts {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .details-posts a img {
-    padding: 0 20px;
-    width: 100px;
+  padding: 0 20px;
+  width: 100px;
 }
 
 .details-posts a {
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center;
-    color: #2D333D;
-    opacity: 0.7;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #2d333d;
+  opacity: 0.7;
 }
 
 .vlo-post-details .vlo-heading-1 h2 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .vlo-post-details .vlo-heading-1 h2::after {
-    display: none;
+  display: none;
 }
 
 .vol-travel-comment .author {
-    display: flex;
-    padding: 30px 0;
+  display: flex;
+  padding: 30px 0;
 }
 
 .vol-travel-comment .author-img img {
-    max-width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 20px;
+  max-width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
 .vol-travel-comment .author-name {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #2D333D;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2d333d;
 }
 
 .vol-travel-comment p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
-    opacity: 0.7;
-    max-width: 910px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+  opacity: 0.7;
+  max-width: 910px;
 }
 
 .vol-travel-comment .reply {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 14px;
-    color: #24BCEB;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #24bceb;
 }
 
 .vol-travel-comment .author.other {
-    padding: 30px;
-    border-top: 1px solid #EBEBEB;
-    border-bottom: 1px solid #EBEBEB;
+  padding: 30px;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
 }
 
 .vol-travel-comment .author.other p {
-    max-width: 519px;
+  max-width: 519px;
 }
 
 /* vlo-form */
 
 .vlo-designer .vlo-form {
-    padding: 100px 0 0 0;
+  padding: 100px 0 0 0;
 }
 
 .vlo-designer .vlo-populer-posts-4 {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .vlo-form {
-    padding: 100px 0;
+  padding: 100px 0;
 }
 
 .vlo-form-heading {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .vlo-form-heading p {
-    width: 226px;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: right;
-    color: #000000;
-    opacity: 0.7;
+  width: 226px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: right;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .vlo-form label {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 
 .vlo-form input {
-    width: 100%;
-    height: 60px;
-    padding: 24px 20px;
-    margin-bottom: 30px;
-    border: 1px solid rgba(36, 188, 235, 0.2) !important;
-    background-color: #ffffff29;
-    color: #fff;
+  width: 100%;
+  height: 60px;
+  padding: 24px 20px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(36, 188, 235, 0.2) !important;
+  background-color: #ffffff29;
+  color: #fff;
 }
 
 .vlo-form input:focus-visible {
-    border: 1px solid rgba(36, 188, 235, 0.5) !important;
-    outline: none;
+  border: 1px solid rgba(36, 188, 235, 0.5) !important;
+  outline: none;
 }
 
 .vlo-form textarea {
-    width: 100%;
-    padding: 20px;
-    border: 1px solid rgba(36, 188, 235, 0.2) !important;
-    background-color: #ffffff29;
-    color: #fff;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid rgba(36, 188, 235, 0.2) !important;
+  background-color: #ffffff29;
+  color: #fff;
 }
 
 .vlo-form textarea:focus-visible {
-    outline: none;
-    border: 1px solid rgba(36, 188, 235, 0.5) !important;
+  outline: none;
+  border: 1px solid rgba(36, 188, 235, 0.5) !important;
 }
 
 .vlo-form input[type="submit"] {
-    width: 143px;
-    height: 60px;
-    line-height: 15px;
-    background-color: #2196F3;
-    color: #fff;
+  width: 143px;
+  height: 60px;
+  line-height: 15px;
+  background-color: #2196f3;
+  color: #fff;
 }
 
 .vlo-form input#html {
-    width: 10px;
+  width: 10px;
 }
-
 
 /* checkbox */
 
 .form.button {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .form.button input {
-    margin: 0;
+  margin: 0;
 }
 
 .form.button label {
-    padding-bottom: 0;
-    margin-left: 20px;
+  padding-bottom: 0;
+  margin-left: 20px;
 }
 
 .form .container {
-    display: inline-block;
-    position: relative;
-    padding-left: 35px;
-    cursor: pointer;
-    font-size: 14px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 /* Hide the browser's default checkbox */
 .form .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
 
 /* Create a custom checkbox */
 .form .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 16px;
-    width: 16px;
-    background-color: transparent;
-    border: 3px solid #2d333d;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: transparent;
+  border: 3px solid #2d333d;
 }
 
 /* On mouse-over, add a grey background color */
 .form .container:hover input ~ .checkmark {
-    background-color: #ccc;
+  background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
 .form .container input:checked ~ .checkmark {
-    background-color: #325bff;
-    border: 3px solid #2d333d;
+  background-color: #325bff;
+  border: 3px solid #2d333d;
 }
 
 .form .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
+  content: "";
+  position: absolute;
+  display: none;
 }
-  
+
 /* Show the checkmark when checked */
 .form .container input:checked ~ .checkmark:after {
-    display: block;
+  display: block;
 }
-  
+
 /* Style the checkmark/indicator */
 .form .container .checkmark:after {
-    left: 2px;
-    top: 2px;
-    width: 5px;
-    height: 5px;
-    border: solid white;
+  left: 2px;
+  top: 2px;
+  width: 5px;
+  height: 5px;
+  border: solid white;
 }
 
 /* vlo-food-details */
 
 .vlo-food-details {
-    padding: 50px 0 0 0;
+  padding: 50px 0 0 0;
 }
 
 .vlo-food-details .food-details-img {
-    position: relative;
+  position: relative;
 }
 
 .vlo-food-details .food-details-img .img-desc {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .vlo-food-details .food-details-img .img-desc h2 {
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 120px;
-    text-align: center;
-    color: #FFFFFF;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 120px;
+  text-align: center;
+  color: #ffffff;
 }
 
 .vlo-food-details .food-details-img .img-desc p {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    text-align: center;
-    color: #66CC66;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #66cc66;
 }
 
 .vlo-food-details .post-info {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 0;
-    border-bottom: 1px solid rgb(45 51 61 / 10%);
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px solid rgb(45 51 61 / 10%);
 }
 
 .vlo-food-details .post-info .post-meta {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vlo-food-details .post-info .post-author img {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin-right: 15px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
 }
 
 .vlo-food-details .post-info .post-author {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .vlo-food-details .post-info .post-author,
 .vlo-food-details .post-info .post-author a {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-    color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
 }
 
 .vlo-food-details .post-info .post-date {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    color: #2D333D;
-    opacity: 0.5;
-    padding-right: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2d333d;
+  opacity: 0.5;
+  padding-right: 10px;
 }
 
 .vlo-food-details .post-info .comment i {
-    color: #000;
-    vertical-align: middle;
-    margin-right: 10px;
+  color: #000;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .vlo-food-details .post-info .comment span {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    color: #2D333D;
-    opacity: 0.5;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2d333d;
+  opacity: 0.5;
 }
 
 .food-details-social {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .food-details-social a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    margin: 0 10px;
-    color: #000000;
-    border: 1px solid #39404B;
-    border-radius: 50%;
-    line-height: 40px;
-    transition: 0.3s;
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  color: #000000;
+  border: 1px solid #39404b;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: 0.3s;
 }
 
 .vlo-food-details .vlo-populer-posts-3 {
-    padding-top: 30px;
+  padding-top: 30px;
 }
 
 .vlo-food-details img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .vlo-food-details .details-title {
-    max-width: 894px;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 65px;
-    color: #2D333D;
-    margin: 30px 0;
+  max-width: 894px;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 65px;
+  color: #2d333d;
+  margin: 30px 0;
 }
 
 .vlo-food-details p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #000000;
-    opacity: 0.7;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .vlo-food-details blockquote {
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 35px;
-    color: #000000;
-    opacity: 0.7;
-    background-color: rgb(45 51 61 / 5%);
-    border-left: 5px solid #66CC66;
-    padding: 40px 50px;
-    margin: 40px 0;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  color: #000000;
+  opacity: 0.7;
+  background-color: rgb(45 51 61 / 5%);
+  border-left: 5px solid #66cc66;
+  padding: 40px 50px;
+  margin: 40px 0;
 }
 
 .vlo-food-details .vlo-video-post-1 {
-    padding: 0;
+  padding: 0;
 }
 
 .vlo-food-details .details-posts span {
-    max-width: 168px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000000;
-    display: block;
+  max-width: 168px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  display: block;
 }
 
 .vlo-food-details .details-posts span.right {
-    text-align: right;
-    border-right: 2px solid #2d333d;
-    padding-right: 10px;
+  text-align: right;
+  border-right: 2px solid #2d333d;
+  padding-right: 10px;
 }
 
 .vlo-food-details .details-posts span.left {
-    text-align: left;
-    border-left: 2px solid #2d333d;
-    padding-left: 10px;
+  text-align: left;
+  border-left: 2px solid #2d333d;
+  padding-left: 10px;
 }
 
 .vlo-food-details .details-posts .posts-img {
-    display: flex;
+  display: flex;
 }
 
 .vlo-food-details .details-posts .posts-img a {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vlo-food-details .vol-travel-comment .author-info {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .vlo-food-details .author.other p {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .vlo-food-details .reply img {
-    width: 14px;
+  width: 14px;
 }
 
 .vlo-food-details .reply {
-    width: 40px;
-    height: 40px;
-    background-color: rgb(45 51 61 / 5%);
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(45 51 61 / 5%);
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
 }
 
-
 .vlo-food-details .vlo-form input {
-    border: 1px solid rgba(102, 204, 102, 0.15) !important;
-    border-radius: 20px;
+  border: 1px solid rgba(102, 204, 102, 0.15) !important;
+  border-radius: 20px;
 }
 
 .vlo-food-details .vlo-form input:focus-visible {
-    border: 1px solid rgba(102, 204, 102, 0.15) !important;
+  border: 1px solid rgba(102, 204, 102, 0.15) !important;
 }
 
 .vlo-food-details .vlo-form textarea {
-    border: 1px solid rgba(102, 204, 102, 0.15) !important;
-    border-radius: 20px;
+  border: 1px solid rgba(102, 204, 102, 0.15) !important;
+  border-radius: 20px;
 }
 
 .vlo-food-details .vlo-form textarea:focus-visible {
-    border: 1px solid rgba(102, 204, 102, 0.15) !important;
+  border: 1px solid rgba(102, 204, 102, 0.15) !important;
 }
 
 .vlo-food-details .vlo-form {
-    padding: 50px 0;
+  padding: 50px 0;
 }
 
 .vlo-food-details .vlo-form input {
-    height: 40px;
+  height: 40px;
 }
 
 .vlo-food-details .vlo-form input[type="submit"] {
-    line-height: 0;
-    background-color: #66CC66;
-    color: #fff;
+  line-height: 0;
+  background-color: #66cc66;
+  color: #fff;
 }
 
 /* vlo-marketing-details */
 
 .vlo-marketing-details {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .vlo-marketing-details img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .vlo-marketing-details .marketing-details-img {
-    padding-bottom: 70px;
+  padding-bottom: 70px;
 }
 
-.vlo-marketing-details .container, 
-.vlo-marketing-details .container-lg, 
-.vlo-marketing-details .container-md, 
-.vlo-marketing-details .container-sm, 
-.vlo-marketing-details .container-xl, 
+.vlo-marketing-details .container,
+.vlo-marketing-details .container-lg,
+.vlo-marketing-details .container-md,
+.vlo-marketing-details .container-sm,
+.vlo-marketing-details .container-xl,
 .vlo-marketing-details .container-xxl {
-    max-width: 1440px;
+  max-width: 1440px;
 }
 
 .vlo-marketing-details .marketing-video-inner p {
-    font-size: 24px;
-    line-height: 34px;
-    max-width: 730px;
+  font-size: 24px;
+  line-height: 34px;
+  max-width: 730px;
 }
 
 .vlo-details-heading-4 {
-    border-bottom: 1px solid #dadada;
-    margin-bottom: 30px;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 30px;
 }
 
 .vlo-details-heading-4 a {
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 34px;
-    color: #0974E4;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  color: #0974e4;
 }
 
 .vlo-details-heading-4 h2 {
-    max-width: 762px !important;
-    font-weight: 700 !important;
-    font-size: 56px !important;
-    line-height: 66px !important;
-    color: #2D333D;
-    margin-top: 35px;
+  max-width: 762px !important;
+  font-weight: 700 !important;
+  font-size: 56px !important;
+  line-height: 66px !important;
+  color: #2d333d;
+  margin-top: 35px;
 }
 
 .vlo-details-heading-4 p {
-    font-style: italic;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 32px;
-    color: #000000;
-    opacity: 0.6;
-    margin-top: 25px;
-    margin-bottom: 30px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #000000;
+  opacity: 0.6;
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 .vlo-marketing-details p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
-    color: #000000;
-    opacity: 0.7;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .vlo-marketing-details .post-info {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
 }
 
 .vlo-marketing-details .post-info .post-meta {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.vlo-marketing-details .post-info .post-author, 
+.vlo-marketing-details .post-info .post-author,
 .vlo-marketing-details .post-info .post-author a {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-    color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
 }
 
 .vlo-marketing-details .post-info .post-author {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .vlo-marketing-details .post-meta .post-author {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .vlo-marketing-details .post-info .post-author img {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin-right: 15px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
 }
 
 .vlo-marketing-details .post-info .post-date {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    color: #2D333D;
-    opacity: 0.5;
-    padding-right: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2d333d;
+  opacity: 0.5;
+  padding-right: 10px;
 }
 
 .vlo-marketing-details .post-info .comment i {
-    color: #000;
-    vertical-align: middle;
-    margin-right: 10px;
+  color: #000;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .vlo-marketing-details .post-info .comment span {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    color: #2D333D;
-    opacity: 0.5;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2d333d;
+  opacity: 0.5;
 }
 
 .vlo-marketing-details .vlo-populer-posts-4 .vlo-post-newsletter-1 {
-    background-color: #fff;
+  background-color: #fff;
 }
 
 .vlo-marketing-details .vlo-populer-posts-4 .vlo-post-newsletter-1 input#email {
-    background: rgba(9, 116, 228, 0.05);
+  background: rgba(9, 116, 228, 0.05);
 }
 
 .vlo-marketing-details .details-posts .posts-img {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vlo-marketing-details .details-posts .posts-img a {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vlo-marketing-details .details-posts span {
-    max-width: 168px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000;
-    display: block;
+  max-width: 168px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  display: block;
 }
 
 .vlo-marketing-details .details-posts span.left {
-    text-align: left;
-    border-left: 2px solid #2d333d;
-    padding-left: 10px;
+  text-align: left;
+  border-left: 2px solid #2d333d;
+  padding-left: 10px;
 }
 
 .vlo-marketing-details .details-posts span.right {
-    text-align: right;
-    border-right: 2px solid #2d333d;
-    padding-right: 10px;
+  text-align: right;
+  border-right: 2px solid #2d333d;
+  padding-right: 10px;
 }
 
 .vlo-marketing-details .vlo-form input[type="submit"] {
-    background-color: #0974E4;
-    border-radius: 150px;
+  background-color: #0974e4;
+  border-radius: 150px;
 }
 
 .vlo-marketing-details .populer-post-list-title {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
-    color: #2D333D;
-    margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #2d333d;
+  margin-bottom: 30px;
 }
 
 .vlo-marketing-details .vlo-video-post-1 {
-    padding: 0;
+  padding: 0;
 }
 
 .vlo-marketing-details .marketing-video-inner {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .vlo-marketing-details .vlo-form {
-    padding-top: 50px;
+  padding-top: 50px;
 }
-
 
 /* vlo-designer-details */
 
 .vlo-designer-details img {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .vlo-designer-details .post-info {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
-    border-bottom: 1px solid #DADADA;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dadada;
 }
 
 .vlo-designer-details .post-info .post-meta {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vlo-designer-details .post-meta .post-author {
-    margin-right: 15px;
-    padding-right: 20px;
+  margin-right: 15px;
+  padding-right: 20px;
 }
 
-.vlo-designer-details .post-info .post-author, 
+.vlo-designer-details .post-info .post-author,
 .vlo-designer-details .post-info .post-author a {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-    color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000;
 }
 
 .vlo-designer-details .post-info .post-author img {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin-right: 15px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
 }
 
 .vlo-designer-details .post-info .post-date {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    color: #2D333D;
-    opacity: 0.5;
-    padding-right: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2d333d;
+  opacity: 0.5;
+  padding-right: 10px;
 }
 
 .vlo-designer-details .post-info .comment i {
-    color: #000;
-    vertical-align: middle;
-    margin-right: 10px;
+  color: #000;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .vlo-designer-details .post-info .comment span {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    color: #2D333D;
-    opacity: 0.5;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2d333d;
+  opacity: 0.5;
 }
 
 .vlo-designer-details .post-info .food-details-social a {
-    color: #000;
+  color: #000;
 }
 
 .vlo-designer-details .post-info .food-details-social a:hover {
-    background-color: #f4347b;
-    border: 1px solid #f4347b;
-    color: #fff;
+  background-color: #f4347b;
+  border: 1px solid #f4347b;
+  color: #fff;
 }
 
 .vlo-designer-details .post-details-img {
-    margin: 50px 0;
+  margin: 50px 0;
 }
 
 .vlo-designer-details .post-details-img h2 {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 48px;
-    color: #2D333D;
-    margin-bottom: 40PX;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #2d333d;
+  margin-bottom: 40px;
 }
 
 aside {
-    display: flex;
-    align-items: center;
-    margin-bottom: 35px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 35px;
 }
 
 aside span {
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 88px;
-    color: #FFFFFF;
-    min-width: 88px;
-    height: 88px;
-    background: #FA347B;
-    border-radius: 5px;
-    display: inline-block;
-    text-align: center;
-    margin-right: 20px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 88px;
+  color: #ffffff;
+  min-width: 88px;
+  height: 88px;
+  background: #fa347b;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
 }
 
 aside p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 18px;
-    color: #FFFFFF;
-    opacity: 0.7;
-    margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 0.7;
+  margin: 0;
 }
 
 .vlo-designer-details p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
-    color: #000000;
-    opacity: 0.7;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  opacity: 0.7;
 }
 
 .vlo-designer-details .post-details-title {
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 42px;
-    color: #2D333D;
-    margin: 40px 0 30px 0;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  color: #2d333d;
+  margin: 40px 0 30px 0;
 }
 
 .vlo-designer-details blockquote {
-    background: #FA347B;
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    padding: 80px 70px;
-    margin: 40px 0;
+  background: #fa347b;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  padding: 80px 70px;
+  margin: 40px 0;
 }
 
 .vlo-designer-details blockquote p {
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 38px;
-    color: #FFFFFF;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  color: #ffffff;
 }
 
 .vlo-designer-details blockquote span {
-    position: absolute;
-    width: 140px;
-    bottom: -40px;
-    right: 50px;
+  position: absolute;
+  width: 140px;
+  bottom: -40px;
+  right: 50px;
 }
 
 .vlo-designer-details .details-posts .posts-img {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vlo-designer-details .details-posts .posts-img a {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vlo-designer-details .details-posts span {
-    max-width: 168px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color: #000;
-    display: block;
+  max-width: 168px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  display: block;
 }
 
 .vlo-designer-details .details-posts span.left {
-    text-align: left;
-    border-left: 2px solid #2d333d;
-    padding-left: 10px;
+  text-align: left;
+  border-left: 2px solid #2d333d;
+  padding-left: 10px;
 }
 
 .vlo-designer-details .details-posts span.right {
-    text-align: right;
-    border-right: 2px solid #2d333d;
-    padding-right: 10px;
+  text-align: right;
+  border-right: 2px solid #2d333d;
+  padding-right: 10px;
 }
 
 .vlo-designer-details .post-list-title {
-    margin-top: 20px;
-    margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 
 .vlo-designer-details .vlo-form input[type="submit"] {
-    border-radius: 150px;
-    background-color: #FA347B;
+  border-radius: 150px;
+  background-color: #fa347b;
 }
 
 .vlo-designer-details .vol-travel-comment .author-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .vlo-designer-details .vol-travel-comment .author.other p {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .vlo-designer-details .vol-travel-comment .reply img {
-    width: 15px;
+  width: 15px;
 }
 
 .vlo-designer-details .vol-travel-comment .reply {
-    background-color: #FA347B;
-    display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
+  background-color: #fa347b;
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
 }
 
 .vlo-designer-details .vlo-form textarea,
 .vlo-designer-details .vlo-form input {
-    border-radius: 10px;
-    border: 1px solid rgba(250, 52, 123, 0.1) !important;
+  border-radius: 10px;
+  border: 1px solid rgba(250, 52, 123, 0.1) !important;
 }
 
 /* .vlo-photography-details . */
 
 .vlo-photography-details {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .vlo-photography-details .post-info {
-    display: flex;
-    justify-content: space-between;
-    background-color: #5B5A69;
-    padding: 45px 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #5b5a69;
+  padding: 45px 60px;
 }
 
 .vlo-photography-details .post-info .post-meta {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.vlo-photography-details .post-info .post-author, 
+.vlo-photography-details .post-info .post-author,
 .vlo-photography-details .post-info .post-author a {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 18px;
-    color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
 }
 
 .vlo-photography-details .post-meta .post-author {
-    margin-right: 15px;
-    padding-right: 20px;
+  margin-right: 15px;
+  padding-right: 20px;
 }
 
 .vlo-photography-details .post-info .post-author img {
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    margin-right: 15px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
 }
 
 .vlo-photography-details .post-info .post-date {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 18px;
-    color: #ffffff;
-    opacity: 0.5;
-    padding-right: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  opacity: 0.5;
+  padding-right: 10px;
 }
 
 .vlo-photography-details .post-info .comment span {
-    color: #ffffff;
-    opacity: 0.5;
+  color: #ffffff;
+  opacity: 0.5;
 }
 
 .vlo-photography-details .post-info .comment i {
-    color: #ffffff;
-    vertical-align: middle;
-    margin-right: 10px;
+  color: #ffffff;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .vlo-photography-details .food-details-social a {
-    border: 1px solid rgb(255 255 255 / 10%);
+  border: 1px solid rgb(255 255 255 / 10%);
 }
 
 .vlo-photography-details .details-posts .posts-img {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vlo-photography-details .details-posts .posts-img a {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .vlo-photography-details .details-posts span.left {
-    text-align: left;
-    border-left: 2px solid rgb(255 255 255 / 5%);
-    padding-left: 10px;
+  text-align: left;
+  border-left: 2px solid rgb(255 255 255 / 5%);
+  padding-left: 10px;
 }
 
 .vlo-photography-details .details-posts span.right {
-    text-align: right;
-    border-right: 2px solid rgb(255 255 255 / 5%);
-    padding-right: 10px;
+  text-align: right;
+  border-right: 2px solid rgb(255 255 255 / 5%);
+  padding-right: 10px;
 }
 
 .vlo-photography-details .details-posts span {
-    max-width: 168px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 20px;
-    color: #ffffff;
-    display: block;
+  max-width: 168px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  display: block;
 }
 
 .vlo-photography-details .vlo-form label {
-    color: #fff;
+  color: #fff;
 }
 
 .vlo-photography-details .vlo-form input,
 .vlo-photography-details .vlo-form textarea {
-    background-color: #252431 ;
-    border: transparent !important;
-    color: #fff !important;
+  background-color: #252431;
+  border: transparent !important;
+  color: #fff !important;
 }
 
 .vlo-photography-details .vol-travel-comment .author-name {
-    color: #fff;
+  color: #fff;
 }
 
 .vlo-photography-details .vol-travel-comment .author-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .vlo-photography-details .vol-travel-comment .author.other p {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .vlo-photography-details .vlo-form input[type="submit"] {
-    background: #FA347B;
-    border-radius: 150px;
+  background: #fa347b;
+  border-radius: 150px;
 }
 
 .vlo-photography-details .vol-travel-comment .author.other {
-    border: none !important;
-    position: relative;
+  border: none !important;
+  position: relative;
 }
 
 .vlo-photography-details .vol-travel-comment .author.other::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 1px;
-    background-color: #EBEBEB;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 1px;
+  background-color: #ebebeb;
 }
 
 .vlo-photography-details .vol-travel-comment .author.other::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 80%;
-    height: 1px;
-    background-color: #EBEBEB;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  height: 1px;
+  background-color: #ebebeb;
 }
 
 .vlo-photography-details .container {
-    padding: 0;
+  padding: 0;
 }
 
 .vlo-photography-details .container.padding {
-    padding: 50px 65px;
-    background-color: #252431;
+  padding: 50px 65px;
+  background-color: #252431;
 }
 
 .vlo-photography-details .vlo-populer-post-2 {
-    margin: 100px 0;
+  margin: 100px 0;
 }
 
 .vlo-photography-details .vlo-populer-post-2 h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }

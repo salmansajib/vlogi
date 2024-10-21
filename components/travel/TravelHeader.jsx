@@ -14,7 +14,7 @@ const menuItems = [
     label: "Home",
     link: "/travel-blog-details.html",
     subMenu: [
-      { id: 11, label: "Travel", link: "/index.html" },
+      { id: 11, label: "Travel", link: "/" },
       { id: 12, label: "Food", link: "/index-3.html" },
       { id: 13, label: "Marketing", link: "/index-4.html" },
       { id: 14, label: "Designer", link: "/index-5.html" },
@@ -31,11 +31,11 @@ const menuItems = [
         label: "Travel",
         link: "/travel-blog-details.html",
         subMenu: [
-          { id: 211, label: "Travel Blog", link: "/travel-blog.html" },
+          { id: 211, label: "Travel Blog", link: "/travel-blog" },
           {
             id: 212,
             label: "Travel Blog Details",
-            link: "/travel-blog-details.html",
+            link: "/travel-blog-details",
           },
         ],
       },

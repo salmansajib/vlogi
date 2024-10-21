@@ -1,4 +1,4 @@
-import TravelMain from "@/components/travel-home/TravelMain";
+import TravelMain from "@/components/travel/TravelMain";
 
 export default function Home() {
   return (
