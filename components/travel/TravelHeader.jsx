@@ -12,7 +12,7 @@ const menuItems = [
   {
     id: 1,
     label: "Home",
-    link: "/travel-blog-details.html",
+    link: "/",
     subMenu: [
       { id: 11, label: "Travel", link: "/" },
       { id: 12, label: "Food", link: "/index-3.html" },
