@@ -137,11 +137,11 @@ function Banner() {
             ))}
           </Swiper>
           <div className="vlo-navigation-wrapper">
-            <button className="banner-swiper-button-prev text-2xl text-gray-50 bg-gray-900 hover:bg-blue-400 rounded-sm p-2 transition-colors duration-150">
+            <button className="banner-swiper-button-prev text-2xl text-gray-50 bg-gray-700 hover:bg-blue-400 rounded-sm p-2 transition-colors duration-150">
               <IoIosArrowBack />
             </button>
             <div className="banner-swiper-pagination"></div>
-            <button className="banner-swiper-button-next text-2xl text-gray-50 bg-gray-900 hover:bg-blue-400 rounded-sm p-2 transition-colors duration-150">
+            <button className="banner-swiper-button-next text-2xl text-gray-50 bg-gray-700 hover:bg-blue-400 rounded-sm p-2 transition-colors duration-150">
               <IoIosArrowForward />
             </button>
           </div>

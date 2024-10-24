@@ -210,7 +210,7 @@
   margin-bottom: 30px;
   border: 1px solid rgba(36, 188, 235, 0.2) !important;
   background-color: #ffffff29;
-  color: #fff;
+  color: #6f6f6f;
 }
 
 .vlo-form input:focus-visible {
@@ -223,7 +223,7 @@
   padding: 20px;
   border: 1px solid rgba(36, 188, 235, 0.2) !important;
   background-color: #ffffff29;
-  color: #fff;
+  color: #6f6f6f;
 }
 
 .vlo-form textarea:focus-visible {

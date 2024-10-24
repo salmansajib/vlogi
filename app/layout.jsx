@@ -19,7 +19,24 @@ import "@/assets/css/dark-light.css";
 import "@/assets/css/styles.css";
 import "@/assets/css/elements/blog.css";
 import "@/assets/css/elements/details.css";
+import "@/assets/css/elements/about-us.css";
 import "@/assets/css/responsive.css";
+
+/* 
+    <link rel="stylesheet" href="assets/css/fonts/flaticon_vlogi.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fonts/typography-1.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/elements/instagram.css">
+    <link rel="stylesheet" href="assets/css/elements/about-us.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/dark-light.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+*/
 
 import { DarkModeProvider } from "@/context/DarkModeContext";
 import TravelHeader from "@/components/travel/TravelHeader";

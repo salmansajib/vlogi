@@ -169,14 +169,14 @@ function PopularTopics() {
 
           <div className="categories-navigation space-x-3 z-20">
             <button
-              className="pt-swiper-button-prev bg-gray-900 hover:bg-blue-400 text-gray-50 text-2xl p-2 rounded-full transition-colors duration-150"
+              className="pt-swiper-button-prev bg-gray-700 hover:bg-blue-400 text-gray-50 text-2xl p-2 rounded-full transition-colors duration-150"
               onMouseEnter={() => ptSwiperRef.current.autoplay.stop()}
               onMouseLeave={() => ptSwiperRef.current.autoplay.start()}
             >
               <IoIosArrowBack />
             </button>
             <button
-              className="pt-swiper-button-next bg-gray-900 hover:bg-blue-400 text-gray-50 text-2xl p-2 rounded-full transition-colors duration-150"
+              className="pt-swiper-button-next bg-gray-700 hover:bg-blue-400 text-gray-50 text-2xl p-2 rounded-full transition-colors duration-150"
               onMouseEnter={() => ptSwiperRef.current.autoplay.stop()}
               onMouseLeave={() => ptSwiperRef.current.autoplay.start()}
             >

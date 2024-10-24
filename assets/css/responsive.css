@@ -1122,6 +1122,7 @@
 
   .vlo-about-1 .vlo-about-counter {
     position: sticky;
+    bottom: -20px;
   }
 
   .vlo-designer-testimonial .designer-title {
@@ -1671,6 +1672,9 @@
   }
 
   .vlo-testimonial-1 .testimonial-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     margin-bottom: 20px;
   }

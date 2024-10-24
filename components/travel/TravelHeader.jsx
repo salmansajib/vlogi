@@ -102,7 +102,7 @@ const menuItems = [
     label: "About Me",
     link: "/travel-blog-details.html",
     subMenu: [
-      { id: 31, label: "Travel", link: "/travel-about.html" },
+      { id: 31, label: "Travel", link: "/travel-about" },
       { id: 32, label: "Food", link: "/food-about.html" },
       { id: 33, label: "Marketing", link: "/marketing-about.html" },
       { id: 34, label: "Designer", link: "/designer-about.html" },
