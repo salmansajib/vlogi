@@ -4,7 +4,7 @@ import TravelBlogDetailsMain from "@/components/travel/TravelBlogDetailsMain";
 import TravelBlogDetailsPost from "@/components/travel/TravelBlogDetailsPost";
 
 export const metadata = {
-  title: "Vlogi - Travel Blog Details",
+  title: "Travel Blog Details",
   description:
     "blog,personal,photography,food,travel,agency,portfolio,developer,photographer",
 };

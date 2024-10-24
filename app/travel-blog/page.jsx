@@ -2,7 +2,7 @@ import Instagram from "@/components/travel/Instagram";
 import TravelBlogPosts from "@/components/travel/TravelBlogPosts";
 
 export const metadata = {
-  title: "Vlogi - Travel Blog",
+  title: "Travel Blog",
   description:
     "blog,personal,photography,food,travel,agency,portfolio,developer,photographer",
 };

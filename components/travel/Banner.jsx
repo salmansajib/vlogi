@@ -12,7 +12,7 @@ const bannerSlidesData = [
     highlight: "Beach Traveling",
     description:
       "Architecto porro elit, integer volutpat voluptas? Iure autem magnis dui faucibus hendrerit consequatur alias Curae consequuntur turpis libero sequi.",
-    readMoreLink: "travel-blog-details.html",
+    readMoreLink: "/travel-blog-details",
     author: "Anderson",
     postDate: "Jan 12, 2026",
     imgSrc: "/images/banner/banner-1.jpg",
@@ -24,7 +24,7 @@ const bannerSlidesData = [
     highlight: "Beach Traveling",
     description:
       "Architecto porro elit, integer volutpat voluptas? Iure autem magnis dui faucibus hendrerit consequatur alias Curae consequuntur turpis libero sequi.",
-    readMoreLink: "travel-blog-details.html",
+    readMoreLink: "/travel-blog-details",
     author: "Anderson",
     postDate: "Jan 12, 2026",
     imgSrc: "/images/banner/banner-1.jpg",
@@ -36,7 +36,7 @@ const bannerSlidesData = [
     highlight: "Beach Traveling",
     description:
       "Architecto porro elit, integer volutpat voluptas? Iure autem magnis dui faucibus hendrerit consequatur alias Curae consequuntur turpis libero sequi.",
-    readMoreLink: "travel-blog-details.html",
+    readMoreLink: "/travel-blog-details",
     author: "Anderson",
     postDate: "Jan 12, 2026",
     imgSrc: "/images/banner/banner-1.jpg",
@@ -48,7 +48,7 @@ const bannerSlidesData = [
     highlight: "Beach Traveling",
     description:
       "Architecto porro elit, integer volutpat voluptas? Iure autem magnis dui faucibus hendrerit consequatur alias Curae consequuntur turpis libero sequi.",
-    readMoreLink: "travel-blog-details.html",
+    readMoreLink: "/travel-blog-details",
     author: "Anderson",
     postDate: "Jan 12, 2026",
     imgSrc: "/images/banner/banner-1.jpg",
@@ -60,7 +60,7 @@ const bannerSlidesData = [
     highlight: "Beach Traveling",
     description:
       "Architecto porro elit, integer volutpat voluptas? Iure autem magnis dui faucibus hendrerit consequatur alias Curae consequuntur turpis libero sequi.",
-    readMoreLink: "travel-blog-details.html",
+    readMoreLink: "/travel-blog-details",
     author: "Anderson",
     postDate: "Jan 12, 2026",
     imgSrc: "/images/banner/banner-1.jpg",

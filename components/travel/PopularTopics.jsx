@@ -13,7 +13,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-1.jpg",
     imgAlt: "Professional Life Style",
     title: "Professional Life Style",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "06 articles",
   },
   {
@@ -21,7 +21,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-2.jpg",
     imgAlt: "Tour & Travels Guide",
     title: "Tour & Travels Guide",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "04 articles",
   },
   {
@@ -29,7 +29,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-3.jpg",
     imgAlt: "Couple Tour & Travel",
     title: "Couple Tour & Travel",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "05 articles",
   },
   {
@@ -37,7 +37,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-4.jpg",
     imgAlt: "Play Beach Volleyball",
     title: "Play Beach Volleyball",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "02 articles",
   },
   {
@@ -45,7 +45,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-1.jpg",
     imgAlt: "Professional Life Style",
     title: "Professional Life Style",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "06 articles",
   },
   {
@@ -53,7 +53,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-2.jpg",
     imgAlt: "Tour & Travels Guide",
     title: "Tour & Travels Guide",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "04 articles",
   },
   {
@@ -61,7 +61,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-3.jpg",
     imgAlt: "Couple Tour & Travel",
     title: "Couple Tour & Travel",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "05 articles",
   },
   {
@@ -69,7 +69,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-4.jpg",
     imgAlt: "Play Beach Volleyball",
     title: "Play Beach Volleyball",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "02 articles",
   },
   {
@@ -77,7 +77,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-1.jpg",
     imgAlt: "Professional Life Style",
     title: "Professional Life Style",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "06 articles",
   },
   {
@@ -85,7 +85,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-2.jpg",
     imgAlt: "Tour & Travels Guide",
     title: "Tour & Travels Guide",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "04 articles",
   },
   {
@@ -93,7 +93,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-3.jpg",
     imgAlt: "Couple Tour & Travel",
     title: "Couple Tour & Travel",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "05 articles",
   },
   {
@@ -101,7 +101,7 @@ const slidesData = [
     imgSrc: "/images/post-category/post-category-4.jpg",
     imgAlt: "Play Beach Volleyball",
     title: "Play Beach Volleyball",
-    link: "travel-blog-details.html",
+    link: "/travel-blog-details",
     articlesCount: "02 articles",
   },
 ];

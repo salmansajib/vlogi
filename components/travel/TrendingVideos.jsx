@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function TrendingVideos() {
   return (
     <div className="vlo-video-post-1">
@@ -24,10 +26,10 @@ function TrendingVideos() {
                 <span>Jan 12, 2026 </span>
               </div>
               <h3 className="video-title">
-                <a href="travel-blog-details.html">
+                <Link href="/travel-blog-details">
                   Beyond Monument Valley: Exploring the Treasures of Navajo
                   Country
-                </a>
+                </Link>
               </h3>
               <div className="video-info">
                 <div className="video-author">
@@ -36,19 +38,19 @@ function TrendingVideos() {
                     alt="Video Author"
                   />
                   <span>by</span>
-                  <a href="travel-blog-details.html">Anderson</a>
+                  <Link href="/travel-blog-details">Anderson</Link>
                 </div>
                 <div className="video-meta">
                   <div className="video-comment">
                     <i className="flaticon-speech-bubble"></i>
-                    <a href="travel-blog-details.html">
+                    <Link href="/travel-blog-details">
                       <span>10 comment</span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="video-like">
-                    <a href="travel-blog-details.html">
+                    <Link href="/travel-blog-details">
                       <i className="flaticon-heart"></i>
-                    </a>
+                    </Link>
                     <span>10</span>
                   </div>
                 </div>
@@ -72,13 +74,13 @@ function TrendingVideos() {
                     <span>Jan 12, 2026 </span>
                   </div>
                   <h3 className="video-title">
-                    <a href="travel-blog-details.html">
+                    <Link href="/travel-blog-details">
                       The Positive Impact Basic Healthy Yoga Routine
-                    </a>
+                    </Link>
                   </h3>
                   <div className="video-author">
                     <span>by</span>
-                    <a href="travel-blog-details.html">Anderson</a>
+                    <Link href="/travel-blog-details">Anderson</Link>
                   </div>
                 </div>
               </div>
@@ -100,13 +102,13 @@ function TrendingVideos() {
                     <span>Jan 12, 2026 </span>
                   </div>
                   <h3 className="video-title">
-                    <a href="travel-blog-details.html">
+                    <Link href="/travel-blog-details">
                       How to Get the Most Out Your Beach Volley
-                    </a>
+                    </Link>
                   </h3>
                   <div className="video-author">
                     <span>by</span>
-                    <a href="travel-blog-details.html">Anderson</a>
+                    <Link href="/travel-blog-details">Anderson</Link>
                   </div>
                 </div>
               </div>
@@ -128,13 +130,13 @@ function TrendingVideos() {
                     <span>Jan 12, 2026 </span>
                   </div>
                   <h3 className="video-title">
-                    <a href="travel-blog-details.html">
+                    <Link href="/travel-blog-details">
                       Chasing the Perfect Scent Summer Perfumes Today
-                    </a>
+                    </Link>
                   </h3>
                   <div className="video-author">
                     <span>by</span>
-                    <a href="travel-blog-details.html">Anderson</a>
+                    <a href="/travel-blog-details">Anderson</a>
                   </div>
                 </div>
               </div>
@@ -156,13 +158,13 @@ function TrendingVideos() {
                     <span>Jan 12, 2026 </span>
                   </div>
                   <h3 className="video-title">
-                    <a href="travel-blog-details.html">
+                    <Link href="/travel-blog-details">
                       Chasing the Perfect Scent Summer Perfumes Today
-                    </a>
+                    </Link>
                   </h3>
                   <div className="video-author">
                     <span>by</span>
-                    <a href="travel-blog-details.html">Anderson</a>
+                    <Link href="/travel-blog-details">Anderson</Link>
                   </div>
                 </div>
               </div>
@@ -184,13 +186,13 @@ function TrendingVideos() {
                     <span>Jan 12, 2026 </span>
                   </div>
                   <h3 className="video-title">
-                    <a href="travel-blog-details.html">
+                    <Link href="/travel-blog-details">
                       Chasing the Perfect Scent Summer Perfumes Today
-                    </a>
+                    </Link>
                   </h3>
                   <div className="video-author">
                     <span>by</span>
-                    <a href="travel-blog-details.html">Anderson</a>
+                    <Link href="/travel-blog-details">Anderson</Link>
                   </div>
                 </div>
               </div>
