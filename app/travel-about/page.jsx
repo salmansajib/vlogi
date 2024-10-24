@@ -3,6 +3,12 @@ import TravelAboutMain from "@/components/travel/TravelAboutMain";
 import TravelAboutPartner from "@/components/travel/TravelAboutPartner";
 import TravelAboutTestimonial from "@/components/travel/TravelAboutTestimonial";
 
+export const metadata = {
+  title: "Vlogi - Travel About",
+  description:
+    "blog,personal,photography,food,travel,agency,portfolio,developer,photographer",
+};
+
 function TravelAbout() {
   return (
     <main className="vlo-main">

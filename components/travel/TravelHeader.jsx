@@ -112,7 +112,7 @@ const menuItems = [
   {
     id: 4,
     label: "Contact Me",
-    link: "/contact.html",
+    link: "/contact",
     className: "vlo-global-btn header-btn",
   },
 ];
